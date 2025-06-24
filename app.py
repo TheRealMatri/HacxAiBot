@@ -11,10 +11,11 @@ from telegram.ext import (Application, CommandHandler, MessageHandler,
 import threading
 import psutil
 from ratelimit import limits, sleep_and_retry
+from dotenv import load_dotenv 
 
 # Configuration
-TELEGRAM_TOKEN = "7796376668:AAG1WP53OpMkp0luDC4IxdaJVDg5tXXV6ao"
-TOGETHER_API_KEY = "tgp_v1_jpxmeYXld5n1xRlct8QSQQdwp6Z1fTx05e7qdxkZO0Q"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 MODEL_NAME = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
 
 # Load custom prompt
