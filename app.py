@@ -455,8 +455,8 @@ async def generate_ai_response(prompt: str, user_id: int):
     payload = {
         "model": MODEL_NAME,
         "messages": messages,
-        "max_tokens": 1024,
-        "temperature": 0.7
+        "max_tokens": 2048,
+        "temperature": 0.5
     }
 
     try:
