@@ -1,6 +1,6 @@
 # 🌐 HacxGPT - Advanced Telegram AI Assistant
 
-![Banner]![github-header-image](https://github.com/user-attachments/assets/114a1e7c-3561-481b-b93f-fde561d65468)
+![github-header-image](https://github.com/user-attachments/assets/114a1e7c-3561-481b-b93f-fde561d65468)
 
 
 **HacxGPT** is a cutting-edge Telegram AI assistant that combines powerful language models with real-time web access capabilities. This versatile bot provides contextual responses, performs web searches, extracts content from webpages, and maintains conversation history for personalized interactions.
